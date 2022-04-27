@@ -10,6 +10,8 @@ import (
 
 func homeLink(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Welcome home!")
+	log.Println("Hello world!")
+	
 }
 
 func main() {
